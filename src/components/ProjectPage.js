@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import weather from './assets/weather.png';
 import {Row,Col} from 'antd';
 
 const ProjectBlock =styled.div`
@@ -25,12 +26,28 @@ const Contain = styled.div`
     box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
 
     @media only screen and (max-width: 768px) {
-    margin-right: 3%;
-    margin-left: 3%;
     max-width: 100%;
     height: 50%;
-    display: grid;
+    display: flex;
+    flex-direction:column;
     }
+`;
+const Box =styled.div`
+    border-right:1px solid black;
+    width: 100%;
+    height: 360px;
+    margin-right: 2rem;
+    @media only screen and (max-width: 768px) {
+        border:none;
+    }
+`;
+const HeaderImage = styled.div`
+    width:100%;
+    height:360px;
+    background-repeat:no-repeat;
+    background-position:center,center;
+    background-image: url(${weather});
+    background-size:cover;
 `;
 function ProjectPage() {
 
@@ -43,9 +60,10 @@ function ProjectPage() {
             <Row>
 
                     <Col md={6} xs={24}>
-                    <a href="#">
-                        
-                    </a>
+                    <Box>
+                        <HeaderImage />
+              
+                    </Box>
                     </Col>
                     <Col md={18} xs={24}>
                         <div> dd</div>
