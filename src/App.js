@@ -1,6 +1,10 @@
 import React from 'react';
 import HomePage from './components/HomePage';
+import AboutPage from './components/AboutPage';
+import ProjectPage from './components/ProjectPage';
 import styled,{ createGlobalStyle } from 'styled-components'
+import Test from './components/Test';
+import {Row} from 'antd';
 
 const GlobalStyle =  createGlobalStyle `
   body{
@@ -16,6 +20,9 @@ function App() {
     <>
       <GlobalStyle />
       <HomePage/>
+      <AboutPage/>
+      <ProjectPage/>
+      
     </>
   );
 }

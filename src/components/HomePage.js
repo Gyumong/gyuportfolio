@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 
 const HomePageBlock = styled.div`
-    
+    width:100%;
+    height:100vh;
     h1{
-        font-size:3rem;
+        font-size:4vw;
         font-weight:400;
         text-transform:capitalize;
         white-space:nowrap;
