@@ -41,6 +41,24 @@ const Box =styled.div`
         border:none;
     }
 `;
+
+const Info =styled.div`
+    width:100%;
+    height:360px;
+    font-size:1.3em;
+    h1{
+        margin:1rem 0 1rem 2rem;
+        font-weight:700;
+    }
+    h2{
+        margin:1rem 0 1rem 2rem;
+        font-weight:400;
+    }
+    p{
+        margin:1rem 0 1rem 2rem;
+        
+    }
+`;
 const HeaderImage = styled.div`
     width:100%;
     height:360px;
@@ -49,6 +67,8 @@ const HeaderImage = styled.div`
     background-image: url(${weather});
     background-size:cover;
 `;
+
+
 function ProjectPage() {
 
     return (
@@ -66,7 +86,18 @@ function ProjectPage() {
                     </Box>
                     </Col>
                     <Col md={18} xs={24}>
-                        <div> dd</div>
+                    <Info>
+
+                        <h1>WhatWeather</h1>
+                        <h2>
+                            개발기간 : 2020.08.20~2020.08.25
+                        </h2>
+                        <p>
+                            React,axios,KakaoMap,Openweather API를 이용해 주소 검색시 그 주소에 따른 날씨를 나타내주는 앱
+                            <br/>
+                            style은 style-components와 antd 적용 
+                        </p>
+                    </Info>
                     </Col> 
             </Row>
                 </Contain>
