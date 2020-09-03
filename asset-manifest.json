@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/gyuportfolio/static/css/main.b0e65566.chunk.css",
+    "main.js": "/gyuportfolio/static/js/main.9769090b.chunk.js",
+    "main.js.map": "/gyuportfolio/static/js/main.9769090b.chunk.js.map",
+    "runtime-main.js": "/gyuportfolio/static/js/runtime-main.f9a49d21.js",
+    "runtime-main.js.map": "/gyuportfolio/static/js/runtime-main.f9a49d21.js.map",
+    "static/css/2.d4e7eff5.chunk.css": "/gyuportfolio/static/css/2.d4e7eff5.chunk.css",
+    "static/js/2.215b121f.chunk.js": "/gyuportfolio/static/js/2.215b121f.chunk.js",
+    "static/js/2.215b121f.chunk.js.map": "/gyuportfolio/static/js/2.215b121f.chunk.js.map",
+    "index.html": "/gyuportfolio/index.html",
+    "precache-manifest.d2f71dff6f676a729308599e608e06bf.js": "/gyuportfolio/precache-manifest.d2f71dff6f676a729308599e608e06bf.js",
+    "service-worker.js": "/gyuportfolio/service-worker.js",
+    "static/css/2.d4e7eff5.chunk.css.map": "/gyuportfolio/static/css/2.d4e7eff5.chunk.css.map",
+    "static/css/main.b0e65566.chunk.css.map": "/gyuportfolio/static/css/main.b0e65566.chunk.css.map",
+    "static/js/2.215b121f.chunk.js.LICENSE.txt": "/gyuportfolio/static/js/2.215b121f.chunk.js.LICENSE.txt",
+    "static/media/GyuMoive.png": "/gyuportfolio/static/media/GyuMoive.87136e90.png",
+    "static/media/weather.png": "/gyuportfolio/static/media/weather.eb6316a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9a49d21.js",
+    "static/css/2.d4e7eff5.chunk.css",
+    "static/js/2.215b121f.chunk.js",
+    "static/css/main.b0e65566.chunk.css",
+    "static/js/main.9769090b.chunk.js"
+  ]
+}
